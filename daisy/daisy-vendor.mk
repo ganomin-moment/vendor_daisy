@@ -1896,7 +1896,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/bin/hw/vendor.qti.hardware.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.soter@1.0-service \
     vendor/xiaomi/daisy/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/com.sony.device.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sony.device.xml \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/com.sonymobile.mediacontent.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.mediacontent.xml \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/com.sonyericsson.system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.system.xml \
+    vendor/xiaomi/daisy/proprietary/framework/com.sony.device.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sony.device.jar \
+    vendor/xiaomi/daisy/proprietary/framework/com.sonyericsson.system.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.system.jar \
+    vendor/xiaomi/daisy/proprietary/framework/com.sonyericsson.music.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.music.jar \
+    vendor/xiaomi/daisy/proprietary/framework/com.sonymobile.mediacontent.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.mediacontent.jar
 
 PRODUCT_PACKAGES += \
     FingerprintExtensionService \
